@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(34,34,34,255)
+  }
+  
+  .container {
+    width: 410px;
+    height: 450px;
+    background: url('bg.png') center center no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    border-radius: 15px;
+    margin:-22px auto 0;
+  }
+  
+  
+  #username{
+    width: 65%;
+    padding: 8.5px;
+    margin-top: 210px;
+    border-radius: 5px;
+  }
+  
+  #password {
+    margin-top: 17px;
+    width:65%;
+    padding:8.5px;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 28px;
+    font-size: 18px;
+    background-color:rgba(113,190,88,255);
+    width: 70%;
+    padding: 7px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  a {
+    color:#8f8f8f;
+    font-size: 15px;
+  }
+  

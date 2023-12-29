@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Login Page</title>
+</head>
+<body>
+  <div class="container">
+    <form id="loginForm" action="dashboard.html" method="post"></form>
+      <input type="text" id="username" name="username" placeholder="Username" style="font-size: 15px; color:black">
+
+      <input type="password" id="password" name="password" placeholder="Password" style="font-size: 15px; color:black">
+
+      <button type="button" onclick="validateLogin()">Login</button>
+    </form>
+    <br>
+    <p><a href="#" onclick="forgotPassword()">Forgot your password?</a></p>
+  </div>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>

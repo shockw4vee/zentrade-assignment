@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dbstyle.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <title>Company Dashboard</title>
+</head>
+<body>
+  <div class="container">
+    <h4 style="text-align: left;">Company Metrics</h4>
+    <div class="metrics">
+      <div class="metric">
+        <h3 id="totalRevenue" style= "text-align: left; color: #41bf99;">$406,411.29</h3>
+        <p class="metric-number" style="text-align: left;">Total Revenue</p>
+      </div>
+      <div class="metric">
+        <h3 id="totalJobsAvg" style="text-align: left;">$620</h3>
+        <p class="metric-number" style="text-align: left;">Total Jobs Avg</p>
+      </div>
+      <div class="metric">
+        <h3 id="ticketsCreated" style="text-align: left;">655</h3>
+        <p class="metric-number" style="text-align: left;">Tickets Created</p>
+      </div>
+      <div class="metric">
+        <h3 id="ticketsScheduled" style="text-align: left;">735</h3>
+        <p class="metric-number" style="text-align: left;">Tickets Scheduled</p>
+      </div>
+    </div>
+    
+    <div class="metrics">
+      <div class="metric">
+        <h3 id="outstandingAmount" style="text-align: left; color: #ff1112">$110,448.80</h3>
+        <p class="metric-number" style="text-align: left;">Outstanding Amount</p>
+      </div>
+      <div class="metric">
+        <h3 id="membershipSold" style="text-align: left;">105</h3>
+        <p class="metric-number" style="text-align: left;">Membership Sold</p>
+      </div>
+      <div class="metric">
+        <h3 id="jobsCompleted" style="text-align: left;">436</h3>
+        <p class="metric-number" style="text-align: left;">Jobs Completed</p>
+      </div>
+      <div class="metric">
+        <h3 id="totalCancelled" style="text-align: left;">65</h3>
+        <p class="metric-number" style="text-align: left;">Total Cancelled</p>
+      </div>
+    </div>
+
+    <div class="charts">
+      <div class="chart-container">
+        <canvas id="revenueByLocationChart" style="background-color: white;"></canvas>
+      </div>
+      <div class="chart-container">
+        <canvas id="revenueByJobTypeChart" style="background-color: white;"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
+
